@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:background="@color/darkTextColor"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_arrow_back_white_18dp"
+                android:id="@+id/back_arrow"
+                android:layout_gravity="center"/>
+
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="View List of Weekdays"
+                android:gravity="center"
+                android:layout_margin="10dp"
+                android:textColor="@color/whiteTextColor"
+                android:textSize="16dp"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:textSize="16sp"
+                android:layout_weight="0.5"
+                android:text="Week Days"
+                android:textColor="@color/black"/>
+            <TextView
+                android:id="@+id/designation_alias"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:textSize="16sp"
+                android:layout_weight="0.5"
+                android:text="Working Days"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:textSize="16sp"
+                android:gravity="right"
+                android:layout_weight="0.5"
+                android:text="Week Off Type"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/grey_dark">
+        </View>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:background="@color/whiteTextColor"
+                app:cardUseCompatPadding="true"
+                android:elevation="10dp"
+                >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:orientation="horizontal"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:textSize="16sp"
+                    android:layout_weight="0.5"
+                    android:text="Monday"/>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_weight="0.5">
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:enabled="false"
+                        android:id="@+id/monday_checkbox"/>
+                </LinearLayout>
+
+                <Spinner
+                    android:id="@+id/spinner_monday"
+                    android:layout_width="0dp"
+                    android:layout_height="45dp"
+                    android:enabled="false"
+                    android:layout_margin="2dp"
+                    android:layout_weight="0.5"
+                    android:paddingLeft="10dp" />
+
+            </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:background="@color/whiteTextColor"
+                app:cardUseCompatPadding="true"
+                android:elevation="10dp"
+                >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:orientation="horizontal"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center_vertical"
+                    android:textSize="16sp"
+                    android:layout_weight="0.5"
+                    android:text="Tuesday"/>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_weight="0.5">
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:enabled="false"
+                        android:id="@+id/tuesday_checkbox"/>
+                </LinearLayout>
+                <Spinner
+                    android:id="@+id/spinner_tuesday"
+                    android:layout_width="0dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="0.5"
+                    android:enabled="false"
+                    android:paddingLeft="10dp"
+                    android:layout_margin="2dp" />
+
+            </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:background="@color/whiteTextColor"
+                app:cardUseCompatPadding="true"
+                android:elevation="10dp"
+                >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:orientation="horizontal"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center_vertical"
+                    android:textSize="16sp"
+                    android:layout_weight="0.5"
+                    android:text="Wednesday"/>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_weight="0.5">
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:enabled="false"
+                        android:id="@+id/wed_checkbox"/>
+                </LinearLayout>
+                <Spinner
+                    android:id="@+id/spinner_wednesday"
+                    android:layout_width="0dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="0.5"
+                    android:enabled="false"
+                    android:paddingLeft="10dp"
+                    android:layout_margin="2dp" />
+            </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:background="@color/whiteTextColor"
+                app:cardUseCompatPadding="true"
+                android:elevation="10dp"
+                >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:orientation="horizontal"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:textSize="16sp"
+                    android:gravity="center_vertical"
+                    android:layout_weight="0.5"
+                    android:text="Thursday"/>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_weight="0.5">
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:enabled="false"
+                        android:id="@+id/thur_checkbox"/>
+                </LinearLayout>
+                <Spinner
+                    android:id="@+id/spinner_thursday"
+                    android:layout_width="0dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="0.5"
+                    android:enabled="false"
+                    android:paddingLeft="10dp"
+                    android:layout_margin="2dp" />
+
+            </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:background="@color/whiteTextColor"
+                app:cardUseCompatPadding="true"
+                android:elevation="10dp"
+                >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:orientation="horizontal"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:textSize="16sp"
+                    android:gravity="center_vertical"
+                    android:layout_weight="0.5"
+                    android:text="Friday"/>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_weight="0.5">
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:enabled="false"
+                        android:id="@+id/fri_checkbox"/>
+                </LinearLayout>
+                <Spinner
+                    android:id="@+id/spinner_friday"
+                    android:layout_width="0dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="0.5"
+                    android:enabled="false"
+                    android:paddingLeft="10dp"
+                    android:layout_margin="2dp" />
+
+            </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:background="@color/whiteTextColor"
+                app:cardUseCompatPadding="true"
+                android:elevation="10dp"
+                >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:orientation="horizontal"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:textSize="16sp"
+                    android:gravity="center_vertical"
+                    android:layout_weight="0.5"
+                    android:text="Saturday"/>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_weight="0.5">
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:enabled="false"
+                        android:id="@+id/saturday_checkbox"/>
+                </LinearLayout>
+                <Spinner
+                    android:id="@+id/spinner_saturday"
+                    android:layout_width="0dp"
+                    android:layout_height="45dp"
+                    android:enabled="false"
+                    android:layout_weight="0.5"
+                    android:paddingLeft="10dp"
+                    android:layout_margin="2dp" />
+
+            </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:background="@color/whiteTextColor"
+                app:cardUseCompatPadding="true"
+                android:elevation="10dp"
+                >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:orientation="horizontal"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:textSize="16sp"
+                    android:gravity="center_vertical"
+                    android:layout_weight="0.5"
+                    android:text="Sunday"/>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_weight="0.5">
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:gravity="center|center_vertical"
+                        android:enabled="false"
+                        android:layout_height="match_parent"
+                        android:id="@+id/sunday_checkbox"/>
+                </LinearLayout>
+                <Spinner
+                    android:id="@+id/spinner_sunday"
+                    android:layout_width="0dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="0.5"
+                    android:enabled="false"
+                    android:paddingLeft="10dp"
+                    android:layout_margin="2dp" />
+
+            </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/grey_dark">
+            </View>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/lightBgColor"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="First Half"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:layout_margin="5dp"/>
+
+                </LinearLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginLeft="5dp"
+                        >
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:hint="Start Time *"
+                            android:id="@+id/start_time_firsthalf"
+                            android:singleLine="true"
+                            android:editable="false"
+                            android:clickable="false"
+                            android:focusable="false"
+                            android:focusableInTouchMode="false"/>
+                    </com.google.android.material.textfield.TextInputLayout>
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginLeft="5dp"
+
+                        >
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:editable="false"
+                            android:clickable="false"
+                            android:hint="End Time *"
+                            android:id="@+id/end_time_firsthalf"
+                            android:singleLine="true"
+                            android:focusable="false"
+                            android:focusableInTouchMode="false"/>
+                    </com.google.android.material.textfield.TextInputLayout>
+
+               </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/lightBgColor"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="Second Half"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:layout_margin="5dp"/>
+
+                </LinearLayout>
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    >
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:hint="Start Time *"
+                        android:id="@+id/start_time_secondhalf"
+                        android:singleLine="true"
+                        android:editable="false"
+                        android:clickable="false"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false"/>
+                </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    >
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:hint="End Time *"
+                        android:id="@+id/end_time_secondhalf"
+                        android:singleLine="true"
+                        android:focusable="false"
+                        android:editable="false"
+                        android:clickable="false"
+                        android:focusableInTouchMode="false"/>
+                </com.google.android.material.textfield.TextInputLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="fdvdv"
+                    android:textColor="@color/danger"
+                    android:id="@+id/error"
+                    android:visibility="gone"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="110dp"-->
+                <!--android:layout_height="40dp"-->
+                <!--android:background="@color/appcolor"-->
+                <!--android:id="@+id/configure_btn"-->
+                <!--android:layout_margin="10dp"-->
+                <!--android:layout_gravity="center">-->
+
+                <!--<com.systrack.educationerp.helpers.FontAwesomeTextview-->
+                    <!--android:layout_width="30dp"-->
+                    <!--android:layout_height="30dp"-->
+                    <!--android:id="@+id/check_state"-->
+                    <!--android:text="&#xf046;"-->
+                    <!--android:textColor="@color/colorWhite"-->
+                    <!--android:layout_gravity="center"-->
+                    <!--android:gravity="center"-->
+                    <!--android:layout_marginLeft="5dp"/>-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:text="Configure"-->
+                    <!--android:gravity="center"-->
+                    <!--android:textColor="@color/colorWhite"-->
+                    <!--android:layout_marginLeft="2dp"-->
+                    <!--android:id="@+id/btn_title"-->
+                    <!--android:textAllCaps="true"-->
+                    <!--android:textSize="11sp"/>-->
+            <!--</LinearLayout>-->
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/darkTextColor"
+        android:orientation="horizontal"
+        android:id="@+id/linear_Search">
+
+        <!--<com.systrack.admission.helpers.FontAwesomeTextview-->
+            <!--android:id="@+id/imageView"-->
+            <!--android:layout_width="40dp"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_marginLeft="5dp"-->
+            <!--android:gravity="center"-->
+            <!--android:text="&#xf002;"-->
+            <!--android:textColor="@color/black"-->
+            <!--android:textSize="18sp" />-->
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_arrow_back_white_18dp"
+            android:id="@+id/back_arrow"
+            android:layout_gravity="center"/>
+
+
+        <EditText
+            android:id="@+id/edt_search_by_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Search by name..."
+            android:singleLine="true"
+            android:textColor="@color/whiteTextColor"
+            android:textColorHint="@color/whiteTextColor"
+            android:background="@null"
+            android:textSize="15sp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="No Data"
+            android:layout_gravity="center"
+            android:textColor="@color/danger"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:id="@+id/no_data"
+            android:visibility="visible"/>
+
+        <ListView
+            android:id="@+id/listView_course_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <!--make a gradient background-->
+            <gradient
+                android:type="linear"
+                android:startColor="@android:color/transparent"
+                android:endColor="@android:color/transparent"
+                android:angle="270"
+                />
+            <!--apply a border around button-->
+           <!-- <stroke android:color="#a0000000" android:width="2px" />-->
+            <!-- make the button corners rounded-->
+            <!--<corners android:radius="6dp"/>-->
+        </shape>
+    </item>
+</selector>
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+    <!--<selector xmlns:android="http://schemas.android.com/apk/res/android" >-->
+    <!--<item android:state_pressed="true" >-->
+    <!--<shape android:shape="rectangle"  >-->
+    <!--<corners android:radius="3dip" />-->
+    <!--<stroke android:width="1dip" android:color="#329DC1" />-->
+    <!--<gradient android:angle="-90" android:startColor="#329DC1" android:endColor="#329DC1"  />-->
+    <!--</shape>-->
+    <!--</item>-->
+    <!--<item android:state_focused="true">-->
+    <!--<shape android:shape="rectangle"  >-->
+    <!--<corners android:radius="3dip" />-->
+    <!--<stroke android:width="1dip" android:color="#329DC1" />-->
+    <!--<solid android:color="#329DC1"/>-->
+    <!--</shape>-->
+    <!--</item>-->
+    <!--<item >-->
+    <!--<shape android:shape="rectangle"  >-->
+    <!--<corners android:radius="3dip" />-->
+    <!--<stroke android:width="1dip" android:color="#329DC1" />-->
+    <!--<gradient android:angle="-90" android:startColor="#329DC1" android:endColor="#329DC1" />-->
+    <!--</shape>-->
+    <!--</item>-->
+    <!--</selector>-->

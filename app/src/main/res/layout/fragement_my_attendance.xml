@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="5dp"
+        android:background="@color/darkTextColor"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Select Criteria"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:textColor="@color/whiteTextColor"
+            android:textSize="16dp"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:layout_margin="2dp"-->
+        <!--android:background="@color/colorGrey"-->
+        <!--android:orientation="horizontal">-->
+
+        <!--<EditText-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="50dp"-->
+            <!--android:id="@+id/date_edittext"-->
+            <!--android:hint="Search by Date"-->
+            <!--android:focusable="false"-->
+            <!--android:focusableInTouchMode="false"-->
+            <!--android:textSize="13sp"-->
+            <!--android:layout_gravity="center">-->
+        <!--</EditText>-->
+
+
+    <!--</LinearLayout>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        >
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:hint="Search By Date"
+            android:layout_gravity="center"
+            android:id="@+id/date_edittext"
+            android:gravity="center"
+            android:focusableInTouchMode="false"
+            android:focusable="false"
+            android:background="@drawable/rounded_border_edittext"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="No Data"
+            android:layout_gravity="center"
+            android:textColor="@color/danger"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:id="@+id/no_data"
+            android:visibility="visible"/>
+
+        <ListView
+            android:id="@+id/list_my_attendance"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:visibility="gone">
+
+        </ListView>
+    </LinearLayout>
+
+</LinearLayout>

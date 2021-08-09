@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@color/darkTextColor"
+                    android:orientation="horizontal">
+
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_arrow_back_white_18dp"
+                        android:id="@+id/back_arrow"
+                        android:layout_gravity="center"/>
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Select Criteria"
+                        android:layout_gravity="center_vertical"
+                        android:layout_margin="10dp"
+                        android:textColor="@color/whiteTextColor"
+                        android:textSize="16dp"
+                        android:layout_weight="1"/>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/course_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:editable="false"
+                    android:focusable="false"
+                    android:hint="Select Course *"
+                    android:inputType="text"
+                    android:singleLine="true"
+                    />
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/medium_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:editable="false"
+                    android:focusable="false"
+                    android:hint="Select Medium *"
+                    android:inputType="text"
+                    android:singleLine="true"
+                    />
+            </com.google.android.material.textfield.TextInputLayout>
+
+             <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/batch_editext"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:editable="false"
+                    android:focusable="false"
+                    android:hint="Select Batch *"
+                    android:inputType="text"
+                    android:singleLine="true"
+                    />
+             </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/section_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:editable="false"
+                    android:focusable="false"
+                    android:hint="Select Semester / Year *"
+                    android:inputType="text"
+                    android:singleLine="true"
+                    />
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/division_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:editable="false"
+                    android:focusable="false"
+                    android:hint="Select Division *"
+                    android:inputType="text"
+                    android:singleLine="true"
+                    />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/et_lecture_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:editable="false"
+                    android:focusable="false"
+                    android:hint="Lecture Date *"
+                    android:inputType="text"
+                    android:singleLine="true"
+                    />
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/subject_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:editable="false"
+                    android:focusable="false"
+                    android:hint="Select Subject *"
+                    android:inputType="text"
+                    android:singleLine="true"
+                    />
+            </com.google.android.material.textfield.TextInputLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:id="@+id/linear_switch">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="Lecture Type"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5dp"/>
+
+                <Switch
+                    android:id="@+id/Switch_lecture_type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:layout_centerInParent="true"
+                    android:textOff="Practical"
+                    android:textOn="Theory"
+                    android:showText="true"
+                    android:thumb="@drawable/customswitchselector"
+                    android:track="@drawable/custom_track"
+                    android:layout_marginLeft="10dp"
+                    android:thumbTextPadding="7dp"
+                    android:switchTextAppearance="@style/SwitchTextAppearance"
+                    android:layout_gravity="center"
+                    />
+
+            </LinearLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/class_timing_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:editable="false"
+                    android:focusable="false"
+                    android:hint="Select Class Timing *"
+                    android:inputType="text"
+                    android:singleLine="true"
+                    />
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/class_batch_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:editable="false"
+                    android:focusable="false"
+                    android:hint="Select Class Batch *"
+                    android:inputType="text"
+                    android:singleLine="true" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="fdvdv"
+                    android:textColor="@color/danger"
+                    android:id="@+id/error"
+                    android:visibility="gone"
+                    android:layout_gravity="center"
+                    />
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:background="@drawable/round_rectangle"
+                android:id="@+id/search_employee"
+                android:layout_marginTop="40dp"
+                android:padding="10dp"
+                android:layout_gravity="center">
+
+                <com.systrack.admission.helpers.FontAwesomeTextview
+                    android:id="@+id/check_state"
+                    android:layout_width="29dp"
+                    android:layout_height="31dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:text="&#xf002;"
+                    android:textColor="@color/darkTextColor" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Search"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/darkTextColor"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/btn_title"
+                    android:textAllCaps="true"/>
+            </LinearLayout>
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="110dp"-->
+                <!--android:layout_height="40dp"-->
+                <!--android:background="@color/darkTextColor"-->
+                <!--android:id="@+id/search_employee"-->
+                <!--android:layout_marginTop="40dp"-->
+                <!--android:layout_gravity="center">-->
+
+                <!--<com.systrack.admission.helpers.FontAwesomeTextview-->
+                    <!--android:id="@+id/check_state"-->
+                    <!--android:layout_width="30dp"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:layout_gravity="center"-->
+                    <!--android:layout_marginLeft="10dp"-->
+                    <!--android:gravity="center"-->
+                    <!--android:text="&#xf002;"-->
+                    <!--android:textColor="@color/whiteTextColor" />-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:text="Search"-->
+                    <!--android:gravity="center"-->
+                    <!--android:textColor="@color/whiteTextColor"-->
+                    <!--android:layout_marginLeft="5dp"-->
+                    <!--android:id="@+id/btn_title"-->
+                    <!--android:textAllCaps="true"/>-->
+            <!--</LinearLayout>-->
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+</ScrollView>

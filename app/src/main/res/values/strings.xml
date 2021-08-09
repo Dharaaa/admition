@@ -1,0 +1,298 @@
+<resources>
+    <string name="app_name">Admission</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="communicate">Communicate</string>
+    <string name="preference_file_key">Shared_key</string>
+
+
+    <string name="ENABLEPRACTICAL">ENABLEPRACTICAL</string>
+    <string name="EMPLOYEEID">EMPLOYEEID</string>
+    <string name="usertype">usertype</string>
+    <string name="location_id">LocatioID</string>
+    <string name="userid">USERID</string>
+    <string name="username">USERNAME</string>
+    <string name="branchId">BRANCHID</string>
+    <string name="MobileNo">MobileNo</string>
+    <string name="Email">Email</string>
+    <string name="Token">Token</string>
+    <string name="profile_url">PROFILE URL</string>
+    <string name="StudentClassId">Student Class Id</string>
+    <string name="FREETRIALDAYS">FREETRIALDAYS</string>
+    <string name="ISALLOWVIDEOUPLOAD">ISALLOWVIDEOUPLOAD</string>
+    <string name="feedbackEmail">feedbackEmail</string>
+    <string name="address">ADDRESS</string>
+    <string name="entity_name">ENTITYNAME</string>
+    <string name="time_zone">TIMEZONE</string>
+    <string name="date_format">DATEFORMAT</string>
+    <string name="fullname">FULL_NAME</string>
+    <string name="entityid">ENTITYID</string>
+    <string name="roleid">ROLEID</string>
+    <string name="EMPTIMETABLETYPE">EMPTIMETABLETYPE</string>
+    <string name="ISALLOWDIVISION">ISALLOWDIVISION</string>
+    <string name="issecondfactor">ISSECONDFACTOR</string>
+    <string name="courseid">COURSEID</string>
+    <string name="STUDENTCOURSEID">STUDENTCOURSEID</string>
+    <string name="short_display_date">shortDisplayDate</string>
+
+
+
+
+    <string-array name="weekofftype">
+        <item>All</item>
+        <item>Even</item>
+        <item>Odd</item>
+    </string-array>
+    <string name="Dashboard_icon">&#xf0e4;</string>
+    <string name="EmployeeInfo_icon">&#xf007;</string>
+    <string name="Salary_icon">&#xf09d;</string>
+    <string name="TaxInvestment_icon">&#xf09d;</string>
+    <string name="Leaves_icon">&#xf15b;</string>
+    <string name="CompOff_icon">&#xf185;</string>
+    <string name="OptionalHoliday_icon">&#xf005;</string>
+    <string name="Worksheet_icon">&#xf073;</string>
+    <string name="Reimbursement_icon">&#xf140;</string>
+    <string name="Appraisal_icon">&#xf15c;</string>
+    <string name="AssetData_icon">&#xf14a;</string>
+    <string name="HandBook_icon">&#xf02d;</string>
+    <string name="Training_icon">&#xf235;</string>
+    <string name="Helpdesk_icon">&#xf128;</string>
+    <string name="Reportee_icon">&#xf14a;</string>
+    <string name="Hiring_icon">&#xf1b2;</string>
+    <string name="Reimbursement_payment_Icon">&#xf140;</string>
+    <string name="current_opening_Icon">&#xf19d;</string>
+    <string name="utility_Icon">&#xf085;</string>
+
+
+    <string name="open">OPEN</string>
+    <string name="close">CLOSE</string>
+
+    <string-array name="nav_item_activity_titles">
+        <item>Dashboard</item>
+        <item>HR</item>
+        <item>Course Management</item>
+        <item>Time Table</item>
+        <item>Student Attendance</item>
+        <item>Leave Management</item>
+        <item>Attendance Management</item>
+        <item>Holiday Management</item>
+        <item>Examination</item>
+        <item>Library</item>
+        <item>Manage Student</item>
+        <item>Assignment</item>
+        <item>Dashboard Management</item>
+        <item>Telephone Diary</item>
+        <item>Change Password</item>
+        <item>Log Out</item>
+
+    </string-array>
+
+    <string-array name="nav_item_emp_titles">
+        <item>Dashboard</item>
+        <item>HR</item>
+        <item>Leave Management</item>
+        <item>Student Attendance</item>
+        <item>My Attendance</item>
+        <item>My TimeTable</item>
+        <item>National Holiday</item>
+        <item>Change Password</item>
+        <item>Log Out</item>
+
+    </string-array>
+
+
+    <string-array name="hr_titles">
+        <item>Department</item>
+        <item>Designation</item>
+        <item>Category</item>
+        <item>Manage Employee</item>
+    </string-array>
+    <string-array name="hr_titles_emp">
+
+        <item>Manage Employee</item>
+    </string-array>
+
+
+    <string-array name="course_titles">
+        <item>Batch</item>
+        <!--<item>Import Subject</item>-->
+        <item>Teacher Allocation</item>
+        <item>Subject Allocation</item>
+    </string-array>
+    <string-array name="course_titles_with_division">
+        <item>Batch</item>
+        <item>Class Division</item>
+        <item>Teacher Allocation</item>
+        <item>Subject Allocation</item>
+    </string-array>
+
+    <string-array name="timetable_titles_practicle">
+        <item>Room Category</item>
+        <item>Room-Lab Master</item>
+        <item>Class Batch</item>
+        <item>Week Days</item>
+        <item>Class Timing</item>
+        <item>Time Table</item>
+    </string-array>
+
+    <string-array name="timetable_titles">
+        <item>Room Category</item>
+        <item>Room-Lab Master</item>
+        <item>Week Days</item>
+        <item>Class Timing</item>
+        <item>Time Table</item>
+    </string-array>
+
+
+    <string-array name="stu_attendance_titles">
+        <item>Student Attendance</item>
+        <item>Attandance Statistics</item>
+        <item>Lecture Attendance</item>
+    </string-array>
+
+    <string-array name="emp_stu_attendance_titles">
+        <item>Attandance Statistics</item>
+        <item>Lecture Attendance</item>
+    </string-array>
+
+    <string-array name="attendance_titles">
+        <item>Manage Attendance</item>
+    </string-array>
+    <string name="ATTENDANCE_MANAGE">&#xf046;</string>
+
+    <string-array name="holiday_titles">
+        <item>National Holiday</item>
+    </string-array>
+
+    <string-array name="dashboard_mgt_titles">
+        <item>Message of the day</item>
+        <item>Notice</item>
+    </string-array>
+    <string-array name="telephone_diary_titles">
+        <item>Employee Contact</item>
+        <item>Student Contact</item>
+    </string-array>
+    <!--telephone diary-->
+    <string name="EMPLOYEE_CONTACT">&#xf098;</string>
+    <string name="STUDENT_CONTACT">&#xf098;</string>
+
+
+    <!--Dashboard manage-->
+    <string name="DASHBOARD_MESSAGE">&#xf022;</string>
+    <string name="DASHBOARD_NOTICE">&#xf0db;</string>
+
+
+
+    <string name="HOLIDAY">&#xf073;</string>
+
+
+    <string-array name="leave_mgt_titles">
+        <item>Leave Type</item>
+        <item>Leave Duration</item>
+        <item>Leave Reporting</item>
+        <item>Leave Assign</item>
+        <item>Leave Application</item>
+        <item>Employee Leave Reporting</item>
+    </string-array>
+
+    <string-array name="emp_leave_mgt_titles">
+        <item>Leave Application</item>
+        <item>Employee Leave Reporting</item>
+    </string-array>
+
+
+    <string-array name="examination_titles">
+        <item>Exam Master</item>
+        <item>Exam Timetable</item>
+        <item>Hall Arrangement</item>
+        <item>Publish Exam Timetable</item>
+        <item>Moderator Affiliation</item>
+        <item>Generate Marksheet</item>
+        <item>Publish Marksheet</item>
+        <item>Broadsheet</item>
+    </string-array>
+
+    <string-array name="library_titles">
+        <item>Book Category</item>
+        <item>Cup Board</item>
+        <item>Cup Board Shelf</item>
+        <item>Book Vendor</item>
+        <item>Books</item>
+        <item>Issue Book</item>
+        <item>Return Book</item>
+        <item>Fine</item>
+
+
+    </string-array>
+
+    <!--library_itemlist-->
+    <string name="LIBRARY_BOOK_CATEGORY">&#xf15d;</string>
+    <string name="LIBRATY_CUPBOARD">&#xf181;</string>
+    <string name="CUPBOARD_SHELF">&#xf2a1;</string>
+    <string name="BOOK_VENDOR">&#xf217;</string>
+    <string name="BOOKS">&#xf2b9;</string>
+    <string name="ISSUE_BOOK">&#xf02d;</string>
+    <string name="RETURN_BOOK">&#xf122;</string>
+    <string name="FINE">&#xf052;</string>
+
+
+    <string name="LEAVE_TYPE">&#xf1cd;</string>
+    <string name="LEAVE_DURATION">&#xf017;</string>
+    <string name="LEAVE_REPORTING">&#xf0c0;</string>
+    <string name="LEAVE_ASSIGN">&#xf0fe;</string>
+    <string name="LEAVE_APPLICATION">&#xf022;</string>
+
+
+    <!--timetable child-->
+    <string name="TIMETABLE_ROOM">&#xf15d;</string>
+    <string name="TIMETABLE_LAB">&#xf248;</string>
+    <string name="TIMETABLE_WEEK">&#xf073;</string>
+    <string name="TIMETABLE_CLASS">&#xf017;</string>
+    <string name="TIMETABLE_TABLE">&#xf073;</string>
+    <string name="TIMETABLE_CLASSBATCH">&#xf108;</string>
+
+
+    <!--academic studentattendance-->
+    <string name="student_Attendance">&#xf14a;</string>
+    <string name="student_Attendance_statics">&#xf080;</string>
+    <string name="lecture_attendance">&#xf14a;</string>
+
+
+    <!--hr employee manage-->
+    <string name="HR_EMPLOYEE_DAPARTMENT">&#xf0e8;</string>
+    <string name="HR_EMPLOYESS_DESIGNATION">&#xf012;</string>
+    <string name="HR_EMPLOYEE_CATEGORY">&#xf15d;</string>
+    <string name="HR_EMPLOYEE_ADD">&#xf234;</string>
+    <string name="HR_EMPLOYEE_MANAGE">&#xf0c9;</string>
+    <string name="HR_EMPLOYEE_IMPORT">&#xf0ee;</string>
+
+    <!--coursemanagement child-->
+    <string name="COURSE_BATCH">&#xf0e8;</string>
+    <!--<string name="COURSE_IMPORT_SUB">&#xf097;</string>-->
+    <string name="COURSE_SECTION_ALLOW">&#xf1e0;</string>
+    <string name="COURSE_SUBJECT_ALLOW">&#xf02d;</string>
+    <string name="COURSE_CLASS_DIVISION">&#xf24e;</string>
+
+
+
+    <!--examination_student-->
+    <string name="EXAM_MASTER">&#xf248;</string>
+    <string name="EXAM_TIMETABLE">&#xf073;</string>
+    <string name="EXAM_HALL">&#xf14a;</string>
+    <string name="EXAM_PUBLISH">&#xf0a1;</string>
+    <string name="EXAM_MODERATE">&#xf1e0;</string>
+    <string name="EXAM_MARKSHEET">&#xf0ca;</string>
+    <string name="EXAM_PUBLISH_MARKSHEET">&#xf0a1;</string>
+    <string name="BROADCAST">&#xf15c;</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

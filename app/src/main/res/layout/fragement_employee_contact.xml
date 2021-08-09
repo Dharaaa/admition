@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@color/darkTextColor"
+                    android:orientation="horizontal">
+
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_arrow_back_white_18dp"
+                        android:id="@+id/back_arrow"
+                        android:layout_gravity="center"/>
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Search Employee"
+                        android:layout_gravity="center_vertical"
+                        android:layout_margin="10dp"
+                        android:textColor="@color/whiteTextColor"
+                        android:textSize="16dp"
+                        android:layout_weight="1"/>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/course_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:editable="false"
+                    android:focusable="false"
+                    android:hint="Select Course *"
+                    android:inputType="text"
+                    android:singleLine="true"
+                    />
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:visibility="gone">
+
+                <EditText
+                    android:id="@+id/medium_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:editable="false"
+                    android:focusable="false"
+                    android:hint="Select Medium *"
+                    android:inputType="text"
+                    android:singleLine="true"
+                    />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/department_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:editable="false"
+                    android:focusable="false"
+                    android:hint="Select Department *"
+                    android:inputType="text"
+                    android:singleLine="true"
+                    />
+            </com.google.android.material.textfield.TextInputLayout>
+
+             <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/designation_editext"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:editable="false"
+                    android:focusable="false"
+                    android:hint="Select Designation *"
+                    android:inputType="text"
+                    android:singleLine="true"
+                    />
+             </com.google.android.material.textfield.TextInputLayout>
+
+
+
+            <!--<Spinner-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="50dp"-->
+                <!--android:id="@+id/course_spinner">-->
+            <!--</Spinner>-->
+
+            <!--<View-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="1dp"-->
+                <!--android:background="@color/danger"-->
+                <!--android:layout_marginLeft="10dp"-->
+                <!--android:layout_marginRight="10dp"/>-->
+            <!--<Spinner-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="50dp"-->
+                <!--android:id="@+id/department_spinner">-->
+            <!--</Spinner>-->
+            <!--<View-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="1dp"-->
+                <!--android:background="@color/danger"-->
+                <!--android:layout_marginLeft="10dp"-->
+                <!--android:layout_marginRight="10dp"/>-->
+            <!--<Spinner-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="50dp"-->
+                <!--android:id="@+id/designation_spinner">-->
+            <!--</Spinner>-->
+            <!--<View-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="1dp"-->
+                <!--android:background="@color/danger"-->
+                <!--android:layout_marginLeft="10dp"-->
+                <!--android:layout_marginRight="10dp"/>-->
+
+            <!--<Spinner-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="50dp"-->
+                <!--android:id="@+id/category_spinner">-->
+            <!--</Spinner>-->
+
+            <!--<View-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="1dp"-->
+                <!--android:background="@color/danger"-->
+                <!--android:layout_marginLeft="10dp"-->
+                <!--android:layout_marginRight="10dp"/>-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="fdvdv"
+                    android:textColor="@color/danger"
+                    android:id="@+id/error"
+                    android:visibility="gone"
+                    android:layout_gravity="center"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:background="@drawable/round_rectangle"
+                android:id="@+id/search_employee"
+                android:layout_marginTop="40dp"
+                android:padding="10dp"
+                android:layout_gravity="center">
+
+                <com.systrack.admission.helpers.FontAwesomeTextview
+                    android:id="@+id/check_state"
+                    android:layout_width="29dp"
+                    android:layout_height="31dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:text="&#xf002;"
+                    android:textColor="@color/darkTextColor" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Search"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/darkTextColor"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/btn_title"
+                    android:textAllCaps="true"/>
+            </LinearLayout>
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="110dp"-->
+                <!--android:layout_height="40dp"-->
+                <!--android:background="@color/darkTextColor"-->
+                <!--android:id="@+id/search_employee"-->
+                <!--android:layout_marginTop="40dp"-->
+                <!--android:layout_gravity="center">-->
+
+                <!--<com.systrack.admission.helpers.FontAwesomeTextview-->
+                    <!--android:layout_width="30dp"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:id="@+id/check_state"-->
+                    <!--android:text="&#xf002;"-->
+                    <!--android:textColor="@color/whiteTextColor"-->
+                    <!--android:layout_gravity="center"-->
+                    <!--android:gravity="center"-->
+                    <!--android:layout_marginLeft="10dp"/>-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:text="Search"-->
+                    <!--android:gravity="center"-->
+                    <!--android:textColor="@color/whiteTextColor"-->
+                    <!--android:layout_marginLeft="5dp"-->
+                    <!--android:id="@+id/btn_title"-->
+                    <!--android:textAllCaps="true"/>-->
+            <!--</LinearLayout>-->
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+</ScrollView>

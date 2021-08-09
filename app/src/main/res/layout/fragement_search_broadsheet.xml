@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@color/darkTextColor"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_arrow_back_white_18dp"
+                android:id="@+id/back_arrow"
+                android:layout_gravity="center"/>
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="BroadSheet"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="10dp"
+                android:textColor="@color/whiteTextColor"
+                android:textSize="16dp"
+                android:layout_weight="1"/>
+
+
+        </LinearLayout>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@color/whiteTextColor"
+            app:cardUseCompatPadding="true"
+            android:elevation="10dp"
+            >
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Search here"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:id="@+id/searchView"
+                android:drawableLeft="@drawable/ic_search_black_24dp"
+                android:windowSoftInputMode="stateHidden"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:singleLine="true">
+
+            </EditText>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:id="@+id/linear_list"
+            android:layout_marginLeft="10dp">
+
+            <!--<android.support.v7.widget.CardView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="0dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:id="@+id/linear_list">-->
+
+            <!--</android.support.v7.widget.CardView>-->
+            <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:text="No Data"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:textColor="@color/danger"-->
+            <!--android:gravity="center"-->
+            <!--android:textSize="20sp"-->
+            <!--android:id="@+id/no_data"-->
+            <!--android:visibility="visible"/>-->
+            <!--<ListView-->
+            <!--android:id="@+id/list_marksheet"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="0dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:visibility="gone">-->
+
+            <!--</ListView>-->
+        </LinearLayout>
+    </ScrollView>
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:background="@color/title"-->
+    <!--android:layout_alignParentBottom="true"-->
+    <!--android:orientation="horizontal">-->
+
+    <!--<Button-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="Prev"-->
+    <!--android:id="@+id/btn_prev"-->
+    <!--android:layout_weight="1"/>-->
+
+    <!--<Button-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text=""-->
+    <!--android:background="@drawable/paginationbtn"-->
+    <!--android:layout_marginLeft="5dp"-->
+    <!--android:id="@+id/display_item_count"-->
+    <!--android:layout_weight="1"/>-->
+
+    <!--<Button-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="Next"-->
+    <!--android:id="@+id/btn_next"-->
+    <!--android:layout_weight="1"-->
+    <!--android:layout_marginLeft="5dp"-->
+    <!--/>-->
+
+    <!--</LinearLayout>-->
+
+</LinearLayout>
